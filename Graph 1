@@ -1,0 +1,17 @@
+graph TD
+    Nutrition --> Consistency
+    Exercise --> Consistency
+    Mindset --> Consistency
+    Support_System --> Consistency
+
+    Consistency("Consistency (Getting the thing done)")
+    Nutrition("Nutrition\n- Balanced diet\n- Portion control\n- Healthy eating habits")
+    Exercise("Exercise\n- Cardio\n- Strength training\n- Flexibility workouts")
+    Mindset("Mindset\n- Motivation\n- Discipline\n- Goal setting")
+    Support_System("Support System\n- Friends and family\n- Professional guidance\n- Community groups")
+
+    classDef nodeStyle fill:#f9f,stroke:#333,stroke-width:1px;
+    class Nutrition,Exercise,Mindset,Support_System nodeStyle;
+
+    classDef centerStyle fill:#f96,stroke:#333,stroke-width:2px;
+    class Consistency centerStyle;
